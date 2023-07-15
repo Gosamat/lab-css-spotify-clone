@@ -6,3 +6,114 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Got the header to be a flexbox to spread the logo and navbar to the edges of the page and align-items so they are centered with the container. */
+
+* {
+    font-family: Helvetica;
+    color: #1A1A1A;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*  This section is only for the nav-bar and header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    font-weight: lighter;
+    
+}
+li {
+    padding: 10px;
+}
+
+/* This section covers the remaining parts of the page, Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+/* Landing page and banner */
+.landing-page {
+    display: flex;
+    background-image: url(/lab-css-spotify-clone/images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: bottom;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.landing-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#landing-text-title {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.landing-text-sub-title {
+    color: white;
+    font-weight: lighter;
+
+}
+
+/* Features */
+
+.features {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features-title {
+    border-bottom: 3px solid #00B172;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 550;
+
+}
+
+.feature-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.box-millions-of-songs .box-hd-music .box-stream-everywhere {
+    display: flex;
+    flex-direction: column;
+}
