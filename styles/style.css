@@ -111,9 +111,73 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
+    width: 60%;
+    height: 180px;
 }
 
-.box-millions-of-songs .box-hd-music .box-stream-everywhere {
+.box-millions-of-songs, .box-hd-music, .box-stream-everywhere {
     display: flex;
     flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    width: 200px;
+}
+.feature-image {
+    width: 60px;
+
+}
+
+.feature-subtitle {
+    color: #00B172;
+    font-weight: 700;
+
+}
+
+p {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.kanye-container {
+    margin: 0px 50px 0px 50px;
+    height: 600px;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: column;
+}
+
+.kanye-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:  0px 50px 0px 50px;
+}
+
+.spotify-app-screenshot {
+    width: 300px;
+}
+
+.spotify-icon-white {
+    width: 100px;
+}
+.kanye-titles {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.kanye-text {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+}
+
+.kanye-text-boxes {
+  height: 400px;
+  width: 240px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
 }
